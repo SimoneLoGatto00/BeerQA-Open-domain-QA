@@ -100,7 +100,7 @@ how their ranking changes across pipelines.
 
 ### 🍺 Example: ranking visualization (bubble chart)
 
-<img src="figures/pipeline_bubble_chart.png" width="500">
+<img src="figures/pipeline_bubble_chart.png" width="900">
 
 ---
 
@@ -126,7 +126,7 @@ embeddings are.
 
 ### 🧠 Example: Word2Vec embeddings (t-SNE projection)
 
-<img src="figures/word2vec_tsne.png" width="600">
+<img src="figures/word2vec_tsne.png" width="700">
 
 ---
 
