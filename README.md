@@ -126,7 +126,7 @@ embeddings are.
 
 ### 🧠 Example: Word2Vec embeddings (t-SNE projection)
 
-<img src="figures/word2vec_tsne.png" width="700">
+<img src="figures/word2vec_tsne.PNG" width="500">
 
 ---
 
@@ -149,7 +149,7 @@ to visualize high-level structure.
 
 ### 🌐 Example: document clusters (3D t-SNE)
 
-<img src="figures/clusters_tsne_3d.png" width="600">
+<img src="figures/clusters_tsne_3d.png" width="500">
 
 This helps to understand whether contexts related to similar topics naturally
 form coherent clusters (e.g. same series, same entity, same domain).
