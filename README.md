@@ -21,7 +21,7 @@ and semantic structure behave on a realistic multi-hop QA benchmark.
 
 **Source**  
 BeerQA is an open-domain question answering dataset built from existing QA
-benchmarks (e.g. SQuAD Open, HotpotQA) and extended with new questions that
+benchmarks and extended with new questions that
 require **multiple Wikipedia pages** to answer.
 
 Each example contains:
@@ -59,8 +59,24 @@ This helps to understand how “multi-hop” the questions are and how large and
 redundant the context collection is.
 
 ### 📊 Example: contexts per question
+```json).  
+{
+  "id": "cf10ffbb5023cd0bc4637655458512b2186dc886",
+  "src": "squad",
+  "answers": [
+    "Morales"
+  ],
+  "question": "Who came up with a policy for indigenous autonomy?",
+  "context": [
+    [
+      "Indigenous peoples of the Americas",
+      "Morales began work on his \"indigenous autonomy\" policy, which he launched in the eastern lowlands department on 3 August 2009. Bolivia was the first nation in the history of South America to affirm the right of indigenous people to self-government. Speaking in Santa Cruz Department, the President called it \"a historic day for the peasant and indigenous movement\", saying that, though he might make errors, he would \"never betray the fight started by our ancestors and the fight of the Bolivian people.\" A vote on further autonomy for jurisdictions took place in December 2009, at the same time as general elections to office. The issue divided the country."
+    ]
+  ]
+}
+```
 
-<img src="figures/dataset_contexts_hist.png" width="500">
+
 ## 4) Information Retrieval Pipelines with PyTerrier  
 
 We build **sparse retrieval pipelines** using PyTerrier on top of the BeerQA
@@ -84,7 +100,7 @@ how their ranking changes across pipelines.
 
 ### 🍺 Example: ranking visualization (bubble chart)
 
-<img src="figures/pipeline_bubble_chart.png" width="600">
+<img src="figures/pipeline_bubble_chart.png" width="500">
 
 ---
 
