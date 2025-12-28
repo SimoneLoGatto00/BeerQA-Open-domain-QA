@@ -1,4 +1,4 @@
-# BeerQA – Open-domain Question Answering Exploration
+# BeerQA – Open-domain Question Answering 
 
 ## 1) Introduction  
 
